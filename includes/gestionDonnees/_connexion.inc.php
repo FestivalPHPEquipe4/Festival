@@ -6,7 +6,7 @@
 $hote = "localhost";
 $login = "festival";
 $mdp = "secret";
-$bd = "festival";
+$bd = "Festival";
 $dsn = "mysql:host=$hote;dbname=$bd";
 $connexion = null;
 /**
@@ -21,5 +21,5 @@ try {
 } catch (PDOException $e) {
     ajouterErreur("Echec de la connexion au serveur MySQL");
     ajouterErreur(" => " . $e->getMessage());
-}
+} 
  

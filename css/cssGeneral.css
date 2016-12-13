@@ -3,7 +3,7 @@
 /* Style de base pour la page (couleur fond : ocre, couleur texte : noir) */
 .basePage 
 {
-   background-color:#000098;
+   background-color:#ABC8E2;
    color:black;
    font:11px Arial, Helvetica, sans-serif;
 }
@@ -11,8 +11,8 @@
 /* Style pour le titre (couleur du texte : rouge) */
 .titre 
 {
-   background-color:#FFDD88;
-   color:#F50033;
+   background-color:#ABC8E2;
+   color:#183152;
    font:30px Arial, Helvetica, sans-serif;
    text-align:center;
 }
@@ -27,8 +27,8 @@
 mise en gras et en italique) */
 .texteAccueil
 {
-   background-color:#FFDD88;
-   color:#000099;       
+   background-color:#ABC8E2;
+   color:#183152;       
    font:14px Georgia, "Times New Roman", Times, serif;
    font-weight:bold;
    font-style:italic;
@@ -58,9 +58,9 @@ table.tabQuadrille td
 de jaune */
 tr.enTeteTabQuad 
 {
-   background-image:url('../images/xpBarre.jpg');
-   background-color:#FFFFC0;
-   color:black;
+
+   background-color:#183152;
+   color:white;
    height:21px;
    text-align:center;
 } 
@@ -68,7 +68,7 @@ tr.enTeteTabQuad
 /* 2ème style pour les en-têtes des tableaux quadrillés : fond jaune */
 tr.enTete2TabQuad 
 {
-   background-color:#FFFFC0;
+   background-color:#ABC8E2;
    color:black;
    text-align:left;
 } 
@@ -99,9 +99,9 @@ table.tabNonQuadrille
 nuances de jaune et trait bas pour séparer l'en-tête du corps du tableau */
 tr.enTeteTabNonQuad td
 {
-   background-image:url('../images/xpBarre.jpg');
-   background-color:#FFFFC0;
-   color:black;
+
+   background-color:#183152;
+   color:#FFFFFF;
    height:21px;
    text-align:center;
    border-bottom:1px solid #777777;
